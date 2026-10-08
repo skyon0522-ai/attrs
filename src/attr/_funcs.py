@@ -270,6 +270,8 @@ def astuple(
             If *cls* is not an *attrs* class.
 
     ..  versionadded:: 16.2.0
+    ..  versionchanged:: 26.2.0
+        Apply *filter* to attrs instances in dictionary keys and values.
     """
     attrs = fields(inst.__class__)
     rv = []
